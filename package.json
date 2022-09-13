@@ -1,0 +1,20 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "some descroption",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node firstTask.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GorbachyovaEkaterina/first.git"
+  },
+  "author": "Gorbachyova E. S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GorbachyovaEkaterina/first/issues"
+  },
+  "homepage": "https://github.com/GorbachyovaEkaterina/first#readme"
+}
