@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node firstTask.js"
+    "start": "npx ts-node index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/GorbachyovaEkaterina/first/issues"
   },
-  "homepage": "https://github.com/GorbachyovaEkaterina/first#readme"
+  "homepage": "https://github.com/GorbachyovaEkaterina/first#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
 }
