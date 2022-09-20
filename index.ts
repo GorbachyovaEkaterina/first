@@ -1,5 +1,5 @@
-function getDaysToNewYear1 (start: string):string {
-    const date1 = new Date(start);
+function getDaysToNewYear1 (date1: Date):string {
+    //const date1 = new Date(start);
     var newYear = date1.getFullYear() + 1;
     const date2 = new Date(newYear, 0, 1);
 
@@ -17,6 +17,6 @@ function getDaysToNewYear1 (start: string):string {
     return diff;
 }
 
-var start_date = "9/20/2022"; //ввод даты - месяц/день/год
+var start_date = new Date("9/20/2022"); //ввод даты - месяц/день/год
 
 console.log("Осталось до Нового Года: ", getDaysToNewYear1(start_date));
